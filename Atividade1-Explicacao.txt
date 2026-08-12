@@ -1,0 +1,72 @@
+1. Iniciar o Git
+    -   git init
+    Inicia o Git dentro da pasta do projeto.
+
+2. Ver o que foi alterado
+    -   git status
+
+Mostra arquivos novos, modificados ou preparados para commit.
+
+3. Adicionar arquivos
+    -   git add .
+
+    Coloca as alterações na área de preparação (staging), indicando que elas estão prontas para serem commitadas.
+    Também podemos adicionar um arquivo específico:
+
+    -   git add README.md
+
+4. Criar um commit
+
+    git commit -m "🎉 Inicialização do projeto"
+
+    Cria um registro das alterações no histórico do Git.
+    O -m permite colocar uma mensagem explicando o que foi alterado.
+
+5. Criar uma branch
+    -   git switch -c feature/altera-arquivo
+    Cria uma nova branch e já muda para ela.
+    A branch permite trabalhar em uma alteração separadamente da main.
+
+6. Ver as branches
+    -   git branch
+    Mostra as branches existentes. O * indica em qual branch você está.
+
+7. Voltar para a main
+    -   git switch main
+    Troca da branch atual para a main.
+
+8. Enviar para o GitHub
+    -   git push
+    Envia os commits locais para o GitHub.
+
+    Na primeira vez que enviar uma branch, podemos usar:  
+    -   git push -u origin feature/altera-arquivo
+
+9. Baixar atualizações do GitHub
+    -   git pull
+
+    Baixa as alterações do repositório remoto e atualiza sua versão local.
+    Por exemplo, depois de alguém fazer um merge na main do GitHub:
+
+    -   git switch main
+    -   git pull
+
+    Assim você atualiza sua main local.
+
+10. Juntar uma branch
+    -   git merge feature/altera-arquivo
+    Junta as alterações da branch feature/altera-arquivo na branch em que você está.
+
+    Por exemplo:
+
+    main
+    ↓
+    git merge feature/altera-arquivo
+    ↓
+    main recebe as alterações
+
+Observação: Pull Request
+
+    O Pull Request não é um comando do Git.
+    Ele é uma funcionalidade do GitHub.
+    O Pull Request serve para pedir que suas alterações sejam revisadas e depois incorporadas à main.

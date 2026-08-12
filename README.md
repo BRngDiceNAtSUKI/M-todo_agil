@@ -1,3 +1,5 @@
 # M-todo_agil
-teste
+#Gabriel Gutierres  RA: 2171392511017 
+#Guilherme Gomes    RA: 2171392511043
+
 O bolo de fubá é um dos mais tradicionais do nosso país: é simples, gostoso e perfeito para aqueles momentos regados com um café quentinho. Com poucos ingredientes e passos simples, esse bolo oferece um sabor clássico que aquece o coração. Para preparar esta receita de bolo de fubá, basta bater todos os ingredientes no liquidificador até obter uma massa homogênea e então assar até que o bolo esteja dourado e firme. O resultado é um bolo de fubá fofinho, com uma textura delicada e um aroma inconfundível da farinha de milho. Cada fatia é um convite a um sabor autêntico de infância, perfeito para acompanhar um café ou chá, de preferência na companhia da família ou dos amigos. Para aprender como fazer bolo de fubá simples ficar ainda mais gostoso, não esqueça de botar na mesa uma boa manteiga ou geleia para acrescentar em cada pedaço. Desfrute desta receita simples de bolo de fubá, repleta de tradição e doçura.
