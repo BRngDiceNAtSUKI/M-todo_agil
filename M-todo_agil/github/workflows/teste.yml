@@ -1,0 +1,36 @@
+name: primeiro pipeline
+  
+on:
+    push:
+    branches: [main]
+
+jobs:
+    teste:
+      runs-on: ubuntu-latest
+
+      steps:
+      - name: Baixar código do repositório
+        uses: actions/checkout@v4
+      steps:
+        - name: Configurar Python 
+          uses: action/setup@v5
+          with:
+            python-version: '3.12'
+
+        - name: Instalar dependências
+          run: pip install pytest
+
+        - name: Executar testes
+          run: pytest
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - run: pytest
+
+  deploy:
+    need: test
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "Deploy realizado"
