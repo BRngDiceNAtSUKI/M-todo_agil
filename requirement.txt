@@ -1,0 +1,4 @@
+pytest
+request==2.28.1
+pytest-cov
+flake8

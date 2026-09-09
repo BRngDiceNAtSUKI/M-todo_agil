@@ -1,0 +1,10 @@
+
+step:
+  -name: Baixar artefato
+  
+  uses: actions/download-artifact@v4
+  with:
+    name: codigo-buildado
+
+    -name: Extrair artefato
+    run: unzip pipeline-demo.zip
