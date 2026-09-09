@@ -3,4 +3,3 @@ deploy:
   needs: test
   enviroment:
   name: production
-  
